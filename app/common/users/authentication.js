@@ -9,10 +9,9 @@ angular.module('IssueTracker.users.authentication', [])
             function registerUser(user) {
                 var deferred = $q.defer();
 
-                $http.post(BASE_URL + 'Account/Register', user)
+                $http.post(BASE_URL + 'api/Account/Register', user)
                     .then(function(response) {
                         deferred.resolve(response.data);
-                        console.log(response.data);
                     }, function(error) {
                         deferred.reject(error);
                     });
@@ -25,12 +24,11 @@ angular.module('IssueTracker.users.authentication', [])
 
                 var loginUserData = "grant_type=password&username=" + user.email + "&password=" + user.password;
 
-                $http.post(BASE_URL + 'Token', loginUserData,
+                $http.post(BASE_URL + 'api/Token', loginUserData,
                     {
                       headers: {'Content-type': 'application/x-www-form-urlencoded'}
                     }).then(function(response) {
                         deferred.resolve(response.data);
-                        console.log(response.data);
                     }, function(error) {
                         deferred.reject(error);
                     });
@@ -41,20 +39,32 @@ angular.module('IssueTracker.users.authentication', [])
 
             function logoutUser() {
                 var deferred = $q.defer();
+                //var access_token = localStorage.getItem('access_token');
+                var request = {
+                    method: 'POST',
+                    url: BASE_URL + 'api/Account/Logout',
+                    headers:{'Authorization': 'Bearer ' + sessionStorage.authToken}
+                };
+
+                $http(request)
+                    .then(function(){
+                        deferred.resolve();
+                        //localStorage.clear();
+                    }, function(err){
+                        deferred.reject(err)
+                    });
+
                 //$http.post(BASE_URL + "Account/Logout", {
-                //    headers: {'Authorization' : 'Bearer' + token}
+                //    headers: {'Authorization' : 'Bearer' + localStorage.getItem('access_token') }
                 //})
                 //    .then(function() {
                 //        deferred.resolve();
+                //        localStorage.clear();
                 //    }, function() {
                 //        deferred.reject();
                 //    });
 
                 return deferred.promise;
-            }
-
-            function hasLoggedUser() {
-                return localStorage.access_token !== 'undefined';
             }
 
             return {

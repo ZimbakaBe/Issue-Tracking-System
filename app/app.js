@@ -4,12 +4,12 @@
 angular.module('IssueTracker', [
   'ngRoute',
   'IssueTracker.home',
-  'IssueTracker.dashboard',
-  'IssueTracker.common',
-  'IssueTracker.users.identity'
+  'IssueTracker.users.identity',
+  //'IssueTracker.common.directives',
+  'IssueTracker.admin'
 ])
     .config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/#'});
 
 }])
-    .constant('BASE_URL', 'http://softuni-issue-tracker.azurewebsites.net/api/');
+    .constant('BASE_URL', 'http://softuni-issue-tracker.azurewebsites.net/');

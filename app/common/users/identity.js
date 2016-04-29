@@ -2,29 +2,40 @@ angular.module('IssueTracker.users.identity', [])
 
     .factory('identity', [
         '$http',
-        function($http) {
+        '$q',
+        'BASE_URL',
+        function($http, BASE_URL, $q) {
 
-        var access_token = '8d0QcRGmyWFqopCbpXUctR6V28GsFDXyLHcNnshOTnSUKdzG6Yo-lDxUdoOuEj52p7Wt_D-FgdsA4S-9fbrmJKrTPpmYYrcJOPnyNzAe8PiqJS9mZZgtOaZX_xcwOsymm8oAWHRFrrgq4zQTLeTolIank_nmbLRUTUndBqC8lVwpLRv0kolCKXicl_3VSdempcXAlMg8OKEKty3M8qPdlue82-JT9T0fWL6Ha-uTlti4SksbOLrLGEj646RoKZ1S9UGAlHQAX-IyfK2gh3FrGjQ_DFDg_YyDGb-Z_RxXlCEYRJHzBeGIYO7Oo2eth3p8CzGbAs5RxpcTZXt6P6VE3AjBnPGlb787lushwPZCMH5UcZDzZsTZ_vEJolsm3yPqmINS81dQ8z1fw6jAE2BFS8LK71u8agSSWjrOWhsZY4BYtF_Vrq3WwPWcjVjz8Ism87F3Pg-B4-KLNfR0rEQJW3rK7EOHnWNCEyNa8rTGVxpN7rEgcUNBGc-4OkDYa_6A';
+            function getCurrentUser() {
+                var deferred = $q.deferred;
 
-        var email = 'viktor.boyanov@yahoo.com';
+                var request = {
+                    method: 'GET',
+                    url: BASE_URL + 'users/me',
+                    headers: {'Authorization': 'Bearer ' + sessionStorage.authToken}
+                };
 
-            $http.defaults.headers.common.Authorization =
-                'Bearer ' + access_token;
+                $http(request)
+                    .then(function(response) {
+                        deferred.resolve(response.data)
+                    }, function(err) {
+                        deferred.reject(err);
+                    });
 
-        var currentUser = $http.get('')
-            .then(function() {
+                return deferred.promise;
+            }
 
-            });
+            function isAdmin() {
 
-        return {
-            getCurrentUser: function() {
-                return {
-                    email: email
-                }
-            },
-            isLogged: function() {
-                return false;
+            }
+
+            function hasLoggedUser() {
+                return sessionStorage.authToken !== undefined;
+            }
+
+            return {
+                getCurrentUser: getCurrentUser,
+                hasLoggedUser: hasLoggedUser
             }
         }
-
-    }]);
+    ]);
