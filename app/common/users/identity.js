@@ -1,13 +1,16 @@
-angular.module('IssueTracker.users.identity', [])
+angular.module('IssueTracker.users.identity', [
+    'IssueTracker.users.authentication'
+])
 
     .factory('identity', [
         '$http',
         '$q',
         'BASE_URL',
-        function($http, BASE_URL, $q) {
+        'authentication',
+        function($http,$q,BASE_URL,authentication) {
 
             function getCurrentUser() {
-                var deferred = $q.deferred;
+                var deferred = $q.defer();
 
                 var request = {
                     method: 'GET',
@@ -17,7 +20,7 @@ angular.module('IssueTracker.users.identity', [])
 
                 $http(request)
                     .then(function(response) {
-                        deferred.resolve(response.data)
+                        deferred.resolve(response.data);
                     }, function(err) {
                         deferred.reject(err);
                     });
@@ -26,7 +29,10 @@ angular.module('IssueTracker.users.identity', [])
             }
 
             function isAdmin() {
-
+                if(sessionStorage['currentUser']) {
+                    var current = JSON.parse(sessionStorage.currentUser);;
+                    return current.isAdmin;
+                }
             }
 
             function hasLoggedUser() {
@@ -35,7 +41,8 @@ angular.module('IssueTracker.users.identity', [])
 
             return {
                 getCurrentUser: getCurrentUser,
-                hasLoggedUser: hasLoggedUser
+                hasLoggedUser: hasLoggedUser,
+                isAdmin: isAdmin
             }
         }
     ]);

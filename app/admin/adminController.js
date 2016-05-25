@@ -1,4 +1,7 @@
-angular.module('IssueTracker.admin', [])
+angular.module('IssueTracker.admin', [
+    'IssueTracker.admin.service'
+])
+
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider.when('/#/admin', {
             controller: 'AdminCtrl',

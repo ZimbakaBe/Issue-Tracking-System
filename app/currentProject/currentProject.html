@@ -1,0 +1,17 @@
+<div class="projectIssues">
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Due Date</th>
+            <th>Assignee</th>
+        </tr>
+        <tr ng-repeat="issues in projectIssues">
+            <td>{{issues.Title}}</td>
+            <td>{{issues.Description}}</td>
+            <td>{{issues.DueDate}}</td>
+            <td>{{issues.Assignee.Username}}</td>
+        </tr>
+    </table>
+</div>
+

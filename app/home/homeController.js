@@ -1,5 +1,7 @@
 angular.module('IssueTracker.home', [
-        'IssueTracker.users.authentication'
+        'IssueTracker.users.authentication',
+        'IssueTracker.home.service',
+        'IssueTracker.home.directives'
 ])
 
     .config(['$routeProvider', function($routeProvider){
@@ -14,10 +16,27 @@ angular.module('IssueTracker.home', [
         'authentication',
         '$location',
         'identity',
+        'homeService',
 
-        function($scope,authentication,$location,identity) {
+        function($scope,authentication,$location,identity,homeService) {
 
+            $scope.isAdmin = identity.isAdmin;
             $scope.hasLoggedUser = identity.hasLoggedUser;
+
+            $scope.getUserIssues = function(){
+                homeService.getUserIssues()
+                    .then(
+                        function(data) {
+                            $scope.issuesData = data.data;
+
+                            for (var obj in data.data.Issues) {
+                                $scope.projectName = data.data.Issues[obj].Project.Name;
+                            }
+                        }, function(err) {
+                            console.log(err);
+                        }
+                );
+        };
 
             $scope.login = function(user) {
                 authentication.login(user)
@@ -28,7 +47,6 @@ angular.module('IssueTracker.home', [
                             .then(
                                 function(data) {
                                     sessionStorage['currentUser'] = JSON.stringify(data);
-                                    console.log(sessionStorage.currentUser);
                                 }, function(err) {
                                     console.log(err);
                                 }
@@ -40,14 +58,17 @@ angular.module('IssueTracker.home', [
 
             $scope.register = function(user) {
                 authentication.register(user)
-                    .then(function(user) {
-                        console.log(user);
-                    });
+                    .then(function(response) {
+                        alert('You have registered successfully');
+                        $scope.login({
+                            email: user.email,
+                            password: user.password
+                        })
+                    })
             };
 
             $scope.logout = function() {
                 sessionStorage.clear();
-                //authentication.logout()
             }
 
     }]);

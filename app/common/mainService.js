@@ -21,10 +21,10 @@ angular.module('IssueTracker.common.service', [])
                             deferred.resolve(data.data)
                         }, function(err) {
                             deferred.reject(err);
-                        }
-                    );
+                        });
 
                 return deferred.promise();
+
             }
         }
     ]);

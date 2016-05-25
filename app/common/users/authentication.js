@@ -3,18 +3,35 @@ angular.module('IssueTracker.users.authentication', [])
     .factory('authentication', [
         '$http',
         '$q',
+        '$cookies',
+        '$location',
         'BASE_URL',
-        function($http, $q, BASE_URL) {
+        function($http, $q, $cookies,$location,BASE_URL) {
 
             function registerUser(user) {
                 var deferred = $q.defer();
 
-                $http.post(BASE_URL + 'api/Account/Register', user)
-                    .then(function(response) {
-                        deferred.resolve(response.data);
-                    }, function(error) {
-                        deferred.reject(error);
-                    });
+                var data = {
+                    'email':user.email,
+                    'password':user.password,
+                    'confirmpassword':user.confirmPassword
+                };
+
+                var request = {
+                    method: 'POST',
+                    url: BASE_URL + 'api/Account/Register',
+                    data: data,
+                    headers: {'Content-Type': 'application/json'}
+                };
+
+                $http(request)
+                    .then(
+                        function(response) {
+                            deferred.resolve(response.data);
+                        }, function (err) {
+                            deferred.reject(err);
+                        }
+                    );
 
                 return deferred.promise;
             }
@@ -38,33 +55,23 @@ angular.module('IssueTracker.users.authentication', [])
             }
 
             function logoutUser() {
-                var deferred = $q.defer();
-                //var access_token = localStorage.getItem('access_token');
-                var request = {
-                    method: 'POST',
-                    url: BASE_URL + 'api/Account/Logout',
-                    headers:{'Authorization': 'Bearer ' + sessionStorage.authToken}
-                };
-
-                $http(request)
-                    .then(function(){
-                        deferred.resolve();
-                        //localStorage.clear();
-                    }, function(err){
-                        deferred.reject(err)
-                    });
-
-                //$http.post(BASE_URL + "Account/Logout", {
-                //    headers: {'Authorization' : 'Bearer' + localStorage.getItem('access_token') }
-                //})
-                //    .then(function() {
+                //var deferred = $q.defer();
+                ////var access_token = localStorage.getItem('access_token');
+                //var request = {
+                //    method: 'POST',
+                //    url: BASE_URL + 'api/Account/Logout',
+                //    headers:{'Authorization': 'Bearer ' + sessionStorage.authToken}
+                //};
+                //
+                //$http(request)
+                //    .then(function(){
                 //        deferred.resolve();
-                //        localStorage.clear();
-                //    }, function() {
-                //        deferred.reject();
+                //        //localStorage.clear();
+                //    }, function(err){
+                //        deferred.reject(err)
                 //    });
-
-                return deferred.promise;
+                //
+                //return deferred.promise;
             }
 
             return {

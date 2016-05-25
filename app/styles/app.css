@@ -1,4 +1,67 @@
 /* app css stylesheet */
+#issueInformation > div:first-of-type > a {
+  position: relative;
+  text-align: center;
+  bottom: 30px;
+  left: 90px;
+  color: rgb(255,255,255);
+  background-color: rgb(82,178,81);
+  padding: 0.5%;
+  border-radius: 4px;
+}
+
+.assignesIssuesTable > table {
+  width: 45%;
+}
+
+#issuePageHeader {
+  background-color: rgb(206,232,245);
+  color: rgb(143,200,227);
+  margin-top: 7px;
+  margin-bottom: 5px;
+  height: 40px;
+  text-align: justify;
+  border-radius: 4px;
+}
+
+#issuePageHeader > div {
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+.issuePage > a {
+  background-color: rgb(82,178,81);
+  color: rgb(246,255,255);
+  padding: 1%;
+  border-radius: 4px;
+}
+
+.dashboard > a {
+  background-color: rgb(82,178,81);
+  color: rgb(246,255,255);
+  padding: 1%;
+  border-radius: 4px;
+}
+
+.scroll {
+  overflow: scroll;
+}
+
+.Projects {
+  font-weight: bold;
+}
+
+.projectIssues table {
+  width: 40%;
+}
+
+.projectInfo{
+  background-color: rgb(47,175,212);
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
 
 .background {
   background-color: rgb(70,161,68);

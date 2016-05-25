@@ -31,5 +31,8 @@ angular.module('IssueTracker.admin.service', [])
                 return deferred.promise();
             }
 
+            return {
+                makeAdmin: makeAdmin
+            }
         }
     ]);

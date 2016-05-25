@@ -1,0 +1,11 @@
+<div ng-init="getAllProjects()">
+    <div class="scroll">
+        <div class="projects" ng-model="currentProject" ng-repeat="project in projects">
+            {{project.Name}}
+            <button class="projectInfo" ng-click="viewProjectIssues(project.Id)">
+                <a href="#/projects/{{project.Id}}">View</a>
+            </button>
+        </div>
+    </div>
+</div>
+

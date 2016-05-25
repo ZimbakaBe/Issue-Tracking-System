@@ -1,0 +1,17 @@
+<div class="row" style="background-color: rgb(255,255,255)">
+    <div class="issuePage">
+        <a href="#">Dashboard</a>
+        <a href="#/allProjects">Projects</a>
+    </div>
+    <header id="issuePageHeader">
+        <div>Issue Page</div>
+    </header>
+    <div id="issueInformation">
+        <h4>{{issue.IssueKey}}</h4>
+        <div ng-if="currentUserId === authorId">            
+            <a href="#/issues/:id/edit">Edit</a>
+        </div>
+    </div>
+
+</div>
+

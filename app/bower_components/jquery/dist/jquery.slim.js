@@ -486,7 +486,7 @@ jQuery.extend( {
 
 	now: Date.now,
 
-	// jQuery.support is not used in Core but other projects attach their
+	// jQuery.support is not used in Core but other addIssue attach their
 	// properties to it so it needs to exist.
 	support: support
 } );
@@ -5632,7 +5632,7 @@ jQuery.extend( {
 			clone = elem.cloneNode( true ),
 			inPage = jQuery.contains( elem.ownerDocument, elem );
 
-		// Fix IE cloning issues
+		// Fix IE cloning addIssue
 		if ( !support.noCloneChecked && ( elem.nodeType === 1 || elem.nodeType === 11 ) &&
 				!jQuery.isXMLDoc( elem ) ) {
 

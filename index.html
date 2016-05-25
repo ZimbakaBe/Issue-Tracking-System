@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="app/bower_components/html5-boilerplate/dist/css/normalize.css">
         <link rel="stylesheet" href="app/bower_components/html5-boilerplate/dist/css/main.css">
         <link rel="stylesheet" href="app/bower_components/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="app/bower_components/ng-scrollbar/dist/ng-scrollbar.min.css">
         <link rel="stylesheet" href="app/styles/app.css">
         <script src="app/bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -70,16 +71,29 @@
     </div>
     <div ng-view class="container"></div>
 </div>
-
     <script src="app/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="app/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="app/bower_components/angular/angular.min.js"></script>
     <script src="app/bower_components/angular-route/angular-route.min.js"></script>
-    <script src="app/home/home-controller.js"></script>
+    <script src="app/bower_components/angular-filter/dist/angular-filter.min.js"></script>
+    <script src="app/bower_components/angular-cookies/angular-cookies.min.js"></script>
+    <script src="app/bower_components/ng-scrollbar/dist/ng-scrollbar.min.js"></script>
+    <script src="app/home/homeDirectives.js"></script>
+    <script src="app/home/homeService.js"></script>
+    <script src="app/home/homeController.js"></script>
+    <script src="app/addIssue/addIssueService.js"></script>
+    <script src="app/addIssue/addIssueController.js"></script>
     <script src="app/common/users/authentication.js"></script>
     <script src="app/common/users/identity.js"></script>
-    <script src="app/common/main-controller.js"></script>
-    <script src="app/admin/admin-controller.js"></script>
+    <script src="app/common/mainController.js"></script>
+    <script src="app/admin/adminService.js"></script>
+    <script src="app/admin/adminController.js"></script>
+    <script src="app/allProjects/allProjectsController.js"></script>
+    <script src="app/allProjects/allProjectsServices.js"></script>
+    <script src="app/currentProject/currentProjectController.js"></script>
+    <script src="app/currentProject/currentProjectService.js"></script>
+    <script src="app/issuePage/issuePageService.js"></script>
+    <script src="app/issuePage/issuePageController.js"></script>
     <script src="app/app.js"></script>
 
 </body>
