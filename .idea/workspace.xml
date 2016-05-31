@@ -2,53 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="749b451f-e856-4838-8079-49266531ba2a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/addIssue/addIssue.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/addIssue/addIssueController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/addIssue/addIssueService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/allProjects/allProjects.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/allProjects/allProjectsController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/allProjects/allProjectsServices.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/currentProject/currentProject.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/currentProject/currentProjectController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/currentProject/currentProjectService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/home/homeDirectives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/home/homeService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/home/templates/loginForm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/home/templates/registerForm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/issuePage/issuePage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/issuePage/issuePageController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/issuePage/issuePageService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/app/bower_components/angular/angular.min.js.gzip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Issue-Tracking-System.iml" afterPath="$PROJECT_DIR$/.idea/Issue-Tracking-System.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular/.bower.json" afterPath="$PROJECT_DIR$/app/bower_components/angular/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular/angular.min.js" afterPath="$PROJECT_DIR$/app/bower_components/angular/angular.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/app/bower_components/angular/angular.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular/bower.json" afterPath="$PROJECT_DIR$/app/bower_components/angular/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/angular/package.json" afterPath="$PROJECT_DIR$/app/bower_components/angular/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/bootstrap/.bower.json" afterPath="$PROJECT_DIR$/app/bower_components/bootstrap/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/bootstrap/Gruntfile.js" afterPath="$PROJECT_DIR$/app/bower_components/bootstrap/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/bootstrap/less/navbar.less" afterPath="$PROJECT_DIR$/app/bower_components/bootstrap/less/navbar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/bootstrap/package.js" afterPath="$PROJECT_DIR$/app/bower_components/bootstrap/package.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/html5-boilerplate/gulpfile.js" afterPath="$PROJECT_DIR$/app/bower_components/html5-boilerplate/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/html5-boilerplate/test/file_content.js" afterPath="$PROJECT_DIR$/app/bower_components/html5-boilerplate/test/file_content.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/jquery/.bower.json" afterPath="$PROJECT_DIR$/app/bower_components/jquery/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/app/bower_components/jquery/dist/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/jquery/dist/jquery.slim.js" afterPath="$PROJECT_DIR$/app/bower_components/jquery/dist/jquery.slim.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/jquery/src/core.js" afterPath="$PROJECT_DIR$/app/bower_components/jquery/src/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bower_components/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/app/bower_components/jquery/src/manipulation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/common/users/authentication.js" afterPath="$PROJECT_DIR$/app/common/users/authentication.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/common/users/identity.js" afterPath="$PROJECT_DIR$/app/common/users/identity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/templates/home.html" afterPath="$PROJECT_DIR$/app/home/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/home/templates/affiliatedProjects.html" afterPath="$PROJECT_DIR$/app/home/templates/affiliatedProjects.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/issuePage/issuePage.html" afterPath="$PROJECT_DIR$/app/issuePage/issuePage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/issuePage/issuePageController.js" afterPath="$PROJECT_DIR$/app/issuePage/issuePageController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/issuePage/issuePageService.js" afterPath="$PROJECT_DIR$/app/issuePage/issuePageService.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/app.css" afterPath="$PROJECT_DIR$/app/styles/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/admin/admin-controller.js" afterPath="$PROJECT_DIR$/app/admin/adminController.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/admin/admin-service.js" afterPath="$PROJECT_DIR$/app/admin/adminService.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/common/main-controller.js" afterPath="$PROJECT_DIR$/app/common/mainController.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/common/main-service.js" afterPath="$PROJECT_DIR$/app/common/mainService.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/home/home-controller.js" afterPath="$PROJECT_DIR$/app/home/homeController.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/currentProject/currentProject.html" afterPath="$PROJECT_DIR$/app/projectPage/projectPage.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/currentProject/currentProjectController.js" afterPath="$PROJECT_DIR$/app/projectPage/projectPageController.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/currentProject/currentProjectService.js" afterPath="$PROJECT_DIR$/app/projectPage/projectPageService.js" />
     </list>
     <ignored path="Issue-Tracking-System.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,7 +36,17 @@
         <entry file="file://$PROJECT_DIR$/app/home/homeController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="89" selection-start-line="48" selection-start-column="89" selection-end-line="48" selection-end-column="89" />
+              <caret line="61" column="66" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/home/homeService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -82,11 +55,21 @@
       <file leaf-file-name="issuePage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/issuePage/issuePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3041145">
-              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.5474061">
+              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="affiliatedProjects.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/home/templates/affiliatedProjects.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9615384">
+              <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,67 +78,37 @@
         <entry file="file://$PROJECT_DIR$/app/issuePage/issuePageController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addIssue.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/addIssue/addIssue.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/admin/admin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/admin/adminController.js">
+      <file leaf-file-name="projectPageService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/projectPage/projectPageService.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="issuePageService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/issuePage/issuePageService.js">
+      <file leaf-file-name="projectPageController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/projectPage/projectPageController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+              <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/home/templates/home.html">
+      <file leaf-file-name="projectPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/projectPage/projectPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/styles/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.8867924">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -164,8 +117,18 @@
       <file leaf-file-name="assignedIssues.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/home/templates/assignedIssues.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state vertical-scroll-proportion="-8.5">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/styles/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.018868">
+              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -187,8 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/js/services/authentication.js" />
-        <option value="$PROJECT_DIR$/app/js/services/identity.js" />
         <option value="$PROJECT_DIR$/app/js/controllers/home-controller.js" />
         <option value="$PROJECT_DIR$/app/common/home-controller.js" />
         <option value="$PROJECT_DIR$/app/common/templates/home.html" />
@@ -226,18 +187,20 @@
         <option value="$PROJECT_DIR$/app/home/templates/home.html" />
         <option value="$PROJECT_DIR$/app/allProjects/allProjectsServices.js" />
         <option value="$PROJECT_DIR$/app/home/homeService.js" />
-        <option value="$PROJECT_DIR$/app/home/templates/affiliatedProjects.html" />
-        <option value="$PROJECT_DIR$/app/home/templates/assignedIssues.html" />
         <option value="$PROJECT_DIR$/app/currentProject/currentProjectService.js" />
         <option value="$PROJECT_DIR$/app/common/mainService.js" />
         <option value="$PROJECT_DIR$/app/currentProject/currentProjectController.js" />
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/issuePage/issuePageService.js" />
         <option value="$PROJECT_DIR$/app/home/homeController.js" />
-        <option value="$PROJECT_DIR$/app/styles/app.css" />
-        <option value="$PROJECT_DIR$/app/issuePage/issuePageController.js" />
+        <option value="$PROJECT_DIR$/app/issuePage/issuePageService.js" />
         <option value="$PROJECT_DIR$/app/issuePage/issuePage.html" />
+        <option value="$PROJECT_DIR$/app/issuePage/issuePageController.js" />
+        <option value="$PROJECT_DIR$/app/styles/app.css" />
+        <option value="$PROJECT_DIR$/app/home/templates/affiliatedProjects.html" />
+        <option value="$PROJECT_DIR$/app/home/templates/assignedIssues.html" />
+        <option value="$PROJECT_DIR$/app/projectPage/projectPageController.js" />
+        <option value="$PROJECT_DIR$/app/projectPage/projectPage.html" />
       </list>
     </option>
   </component>
@@ -279,7 +242,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -344,6 +307,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="projectPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Issue-Tracking-System" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Issue-Tracking-System" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="issuePage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -388,85 +369,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Issue-Tracking-System" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Issue-Tracking-System" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Issue-Tracking-System" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Issue-Tracking-System" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Issue-Tracking-System" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Issue-Tracking-System" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Issue-Tracking-System" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Issue-Tracking-System" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="addIssue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -561,11 +466,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22919819" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" x="508" y="30" width="350" height="667" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789558" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.50851583" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -579,7 +485,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -758,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/home/templates/loginForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/home/templates/registerForm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
@@ -793,13 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/home/templates/affiliatedProjects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/addIssue/addIssueController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -811,46 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/currentProject/currentProjectController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/currentProject/currentProjectService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/currentProject/currentProject.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/home/homeService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,7 +717,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -874,7 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,7 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="67" column="45" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,7 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,7 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,22 +766,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3076923">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/home/homeController.js">
+    <entry file="file://$PROJECT_DIR$/app/home/templates/loginForm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="89" selection-start-line="48" selection-start-column="89" selection-end-line="48" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/home/templates/assignedIssues.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -950,18 +785,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/issuePage/issuePageService.js">
+    <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/app.css">
+    <entry file="file://$PROJECT_DIR$/app/issuePage/issuePageService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.8867924">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -969,15 +804,79 @@
     <entry file="file://$PROJECT_DIR$/app/issuePage/issuePageController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.018868">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/homeService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/projectPage/projectPageService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/projectPage/projectPageController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/templates/affiliatedProjects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/templates/assignedIssues.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/home/homeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="66" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/projectPage/projectPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/issuePage/issuePage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3041145">
-          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.5474061">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
           </folding>

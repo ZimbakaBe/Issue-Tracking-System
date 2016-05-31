@@ -1,7 +1,7 @@
 <div ng-init="getUserIssues()">
     <div class="col-md-2 col-md-offset-0 row" ng-repeat="issue in issuesData.Issues | unique: 'Project.Name'">
         <a href="#/projects/{{issue.Project.Id}}" class="row">
-            {{issue.Project.Name}}
+            <div>{{issue.Project.Name}}</div>
         </a>
     </div>
 </div>

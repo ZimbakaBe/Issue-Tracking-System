@@ -8,10 +8,46 @@
     </header>
     <div id="issueInformation">
         <h4>{{issue.IssueKey}}</h4>
-        <div ng-if="currentUserId === authorId">            
+        <div ng-if="currentUserId === authorId">
             <a href="#/issues/:id/edit">Edit</a>
         </div>
     </div>
-
+    <div class="col-md-4 col-md-offset-0">
+        <div>
+            <div class="col-md-4 col-md-offset-0">
+                <p class="issueInfo">Title:</p>
+                <p class="issueInfo">Description:</p>
+                <p class="issueInfo">AsigneeId:</p>
+                <p class="issueInfo">PriorityId:</p>
+                <p class="issueInfo">Due Date:</p>
+                <p class="projInfo">Author:</p>
+                <p class="projInfo">ProjectLeader:</p>
+                <p class="projInfo">Status:</p>
+                <p class="projInfo">Labels:</p>
+            </div>
+            <div class="col-md-4 col-md-offset-1">
+                <p class="issueInfoDyn">{{issue.Title}}</p>
+                <p class="issueInfoDyn">{{issue.Description}}</p>
+                <p class="issueInfoDyn">{{assigneeId}}</p>
+                <p class="issueInfoDyn">{{issue.Priority.Id}}</p>
+                <p class="issueInfoDyn">{{issue.DueDate}}</p>
+                <p class="issueInfoDyn">{{issue.Author.Username}}</p>
+                <p class="issueInfoDyn">{{issue.Assignee.Id}}</p>
+                <p class="issueInfoDyn">{{issue.Status.Name}}</p>
+                <p class="issueInfoDyn" ng-repeat="label in issue.Labels">
+                    {{label.Name}}
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 col-md-offset-2" ng-if="currentUserId === assigneeId || currentUserId === authorId || isAdmin()">
+        <h6>Available Statuses:</h6>
+        <!--направи инпут с модел и директно го инжектирай като параметър  на changeStatus функцията-->
+        <!--{{availableStatuses}}-->
+        <div ng-repeat="status in availableStatuses">
+            ----{{status.Name}}
+            <button id="changeStatus" ng-click="changeStatus(issue.Id,status.Id)">Change</button>
+        </div>
+    </div>
 </div>
 

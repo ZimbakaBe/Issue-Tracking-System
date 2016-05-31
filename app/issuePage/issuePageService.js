@@ -9,13 +9,13 @@ angular.module('IssueTracker.issuePage.Service', [])
             function viewIssue(id) {
                 var deferred = $q.defer();
 
-                var requests = {
+                var request = {
                     method: 'GET',
                     url: BASE_URL + '/issues/' + id,
                     headers: {'Authorization': 'Bearer ' + sessionStorage.authToken}
                  };
 
-                $http(requests)
+                $http(request)
                     .then(
                         function(data) {
                             deferred.resolve(data.data);
@@ -27,8 +27,30 @@ angular.module('IssueTracker.issuePage.Service', [])
                 return deferred.promise;
             }
 
+            function changeStatus(id, statusId) {
+                var deferred = $q.defer();
+
+                var request = {
+                    method: 'PUT',
+                    url: BASE_URL + '/issues/' + id + '/changestatus?statusid=' + statusId,
+                    headers: {'Authorization': 'Bearer ' + sessionStorage.authToken}
+                };
+
+                $http(request)
+                    .then(
+                        function(data) {
+                            deferred.resolve(data);
+                        }, function(err) {
+                            deferred.reject(err);
+                        }
+                    );
+
+                return deferred.promise;
+            }
+
             return {
-                viewIssue: viewIssue
+                viewIssue: viewIssue,
+                changeStatus: changeStatus
             }
 
         }

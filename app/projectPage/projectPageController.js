@@ -4,7 +4,7 @@ angular.module('IssueTracker.currentProject',[
 
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider.when('/projects/:Id',{
-            templateUrl: 'app/currentProject/currentProject.html',
+            templateUrl: 'app/projectPage/projectPage.html',
             controller: 'currentProjectCtrl'
         })
     }])
@@ -19,10 +19,13 @@ angular.module('IssueTracker.currentProject',[
                 currentProjectService.viewProjectIssues(id)
                     .then(function(data) {
                         $scope.projectIssues = data.data;
+                        console.log(data.data);
+                        console.log(data.data[0].Id);
+                        console.log($scope.projectIssues[0].Id);
                     }, function (err) {
                         console.log(err);
                     });
-            }
+            };
 
             $scope.viewProjectIssues($routeParams.Id);
         }
